@@ -1,5 +1,5 @@
 from obspy.core.stream import read, Stream
-from obspy.core.util import gps2DistAzimuth
+from obspy.geodetics import gps2dist_azimuth
 from obspy.core import UTCDateTime
 from mpl_toolkits.basemap import Basemap
 from matplotlib.collections import LineCollection
